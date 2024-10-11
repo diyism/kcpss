@@ -1,3 +1,9 @@
+    sudo apt install cmake
+    git clone https://github.com/cppwanderboy/kcpss.git
+    cd kcpss/bin
+    cmake ..
+    make
+
 # kcpss 
 ![CI](https://github.com/cppwanderboy/kcpss/workflows/CI/badge.svg?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/cppwanderboy/kcpss/badge/master)](https://www.codefactor.io/repository/github/cppwanderboy/kcpss/overview/master)
