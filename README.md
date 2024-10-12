@@ -3,6 +3,8 @@
     cd kcpss/bin
     cmake ..
     make
+    curl -v --socks5 127.0.0.1:1088 https://www.google.com/ncr
+    #curl: (97) SOCKS5 GSSAPI per-message authentication is not supported.
 
 # kcpss 
 ![CI](https://github.com/cppwanderboy/kcpss/workflows/CI/badge.svg?branch=master)
